@@ -1,0 +1,4 @@
+file_input = raw_input("What file would you like to open? ")
+txt = open(file_input)
+
+print txt.read()
